@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921B186F1C49F75E00B62994 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921B186E1C49F75E00B62994 /* CoreBluetooth.framework */; };
+		921B18751C4AAA3D00B62994 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921B18741C4AAA3D00B62994 /* GameKit.framework */; };
+		921B18771C4AAB9E00B62994 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921B18761C4AAB9E00B62994 /* MultipeerConnectivity.framework */; };
+		927CD1091D24CD8B009E520F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD0F91D24CD8B009E520F /* AppDelegate.m */; };
+		927CD10A1D24CD8B009E520F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927CD0FA1D24CD8B009E520F /* Assets.xcassets */; };
+		927CD10B1D24CD8B009E520F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927CD0FB1D24CD8B009E520F /* Main.storyboard */; };
+		927CD10C1D24CD8B009E520F /* BTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD0FE1D24CD8B009E520F /* BTManager.m */; };
+		927CD10D1D24CD8B009E520F /* FileFromPID.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD1001D24CD8B009E520F /* FileFromPID.m */; };
+		927CD10E1D24CD8B009E520F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 927CD1011D24CD8B009E520F /* Info.plist */; };
+		927CD10F1D24CD8B009E520F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD1021D24CD8B009E520F /* main.m */; };
+		927CD1101D24CD8B009E520F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD1041D24CD8B009E520F /* ViewController.m */; };
+		927CD1111D24CD8B009E520F /* VTPostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD1061D24CD8B009E520F /* VTPostRequest.m */; };
+		927CD1121D24CD8B009E520F /* WindowStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CD1081D24CD8B009E520F /* WindowStuff.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921B184F1C49E73D00B62994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921B18301C49E73D00B62994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921B18371C49E73D00B62994;
+			remoteInfo = PennappsPreMac;
+		};
+		921B185A1C49E73D00B62994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921B18301C49E73D00B62994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921B18371C49E73D00B62994;
+			remoteInfo = PennappsPreMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921B18381C49E73D00B62994 /* AirmouseMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirmouseMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921B184E1C49E73D00B62994 /* AirmouseMac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirmouseMac.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921B18591C49E73D00B62994 /* AirmouseMac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirmouseMac.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921B186E1C49F75E00B62994 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		921B18741C4AAA3D00B62994 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		921B18761C4AAB9E00B62994 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		927CD0F81D24CD8B009E520F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		927CD0F91D24CD8B009E520F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		927CD0FA1D24CD8B009E520F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927CD0FC1D24CD8B009E520F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927CD0FD1D24CD8B009E520F /* BTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTManager.h; sourceTree = "<group>"; };
+		927CD0FE1D24CD8B009E520F /* BTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTManager.m; sourceTree = "<group>"; };
+		927CD0FF1D24CD8B009E520F /* FileFromPID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFromPID.h; sourceTree = "<group>"; };
+		927CD1001D24CD8B009E520F /* FileFromPID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFromPID.m; sourceTree = "<group>"; };
+		927CD1011D24CD8B009E520F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927CD1021D24CD8B009E520F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		927CD1031D24CD8B009E520F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		927CD1041D24CD8B009E520F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		927CD1051D24CD8B009E520F /* VTPostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPostRequest.h; sourceTree = "<group>"; };
+		927CD1061D24CD8B009E520F /* VTPostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPostRequest.m; sourceTree = "<group>"; };
+		927CD1071D24CD8B009E520F /* WindowStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowStuff.h; sourceTree = "<group>"; };
+		927CD1081D24CD8B009E520F /* WindowStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowStuff.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921B18351C49E73D00B62994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921B18771C4AAB9E00B62994 /* MultipeerConnectivity.framework in Frameworks */,
+				921B18751C4AAA3D00B62994 /* GameKit.framework in Frameworks */,
+				921B186F1C49F75E00B62994 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B184B1C49E73D00B62994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B18561C49E73D00B62994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921B182F1C49E73D00B62994 = {
+			isa = PBXGroup;
+			children = (
+				921B18761C4AAB9E00B62994 /* MultipeerConnectivity.framework */,
+				921B18741C4AAA3D00B62994 /* GameKit.framework */,
+				921B186E1C49F75E00B62994 /* CoreBluetooth.framework */,
+				927CD0F71D24CD8B009E520F /* AirmouseMac */,
+				921B18391C49E73D00B62994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921B18391C49E73D00B62994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921B18381C49E73D00B62994 /* AirmouseMac.app */,
+				921B184E1C49E73D00B62994 /* AirmouseMac.xctest */,
+				921B18591C49E73D00B62994 /* AirmouseMac.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927CD0F71D24CD8B009E520F /* AirmouseMac */ = {
+			isa = PBXGroup;
+			children = (
+				927CD0F81D24CD8B009E520F /* AppDelegate.h */,
+				927CD0F91D24CD8B009E520F /* AppDelegate.m */,
+				927CD0FA1D24CD8B009E520F /* Assets.xcassets */,
+				927CD0FB1D24CD8B009E520F /* Main.storyboard */,
+				927CD0FD1D24CD8B009E520F /* BTManager.h */,
+				927CD0FE1D24CD8B009E520F /* BTManager.m */,
+				927CD0FF1D24CD8B009E520F /* FileFromPID.h */,
+				927CD1001D24CD8B009E520F /* FileFromPID.m */,
+				927CD1011D24CD8B009E520F /* Info.plist */,
+				927CD1021D24CD8B009E520F /* main.m */,
+				927CD1031D24CD8B009E520F /* ViewController.h */,
+				927CD1041D24CD8B009E520F /* ViewController.m */,
+				927CD1051D24CD8B009E520F /* VTPostRequest.h */,
+				927CD1061D24CD8B009E520F /* VTPostRequest.m */,
+				927CD1071D24CD8B009E520F /* WindowStuff.h */,
+				927CD1081D24CD8B009E520F /* WindowStuff.m */,
+			);
+			path = AirmouseMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921B18371C49E73D00B62994 /* AirmouseMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921B18621C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMac" */;
+			buildPhases = (
+				921B18341C49E73D00B62994 /* Sources */,
+				921B18351C49E73D00B62994 /* Frameworks */,
+				921B18361C49E73D00B62994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirmouseMac;
+			productName = PennappsPreMac;
+			productReference = 921B18381C49E73D00B62994 /* AirmouseMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921B184D1C49E73D00B62994 /* AirmouseMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921B18651C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMacTests" */;
+			buildPhases = (
+				921B184A1C49E73D00B62994 /* Sources */,
+				921B184B1C49E73D00B62994 /* Frameworks */,
+				921B184C1C49E73D00B62994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921B18501C49E73D00B62994 /* PBXTargetDependency */,
+			);
+			name = AirmouseMacTests;
+			productName = PennappsPreMacTests;
+			productReference = 921B184E1C49E73D00B62994 /* AirmouseMac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921B18581C49E73D00B62994 /* AirmouseMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921B18681C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMacUITests" */;
+			buildPhases = (
+				921B18551C49E73D00B62994 /* Sources */,
+				921B18561C49E73D00B62994 /* Frameworks */,
+				921B18571C49E73D00B62994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921B185B1C49E73D00B62994 /* PBXTargetDependency */,
+			);
+			name = AirmouseMacUITests;
+			productName = PennappsPreMacUITests;
+			productReference = 921B18591C49E73D00B62994 /* AirmouseMac.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921B18301C49E73D00B62994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Topper Studios";
+				TargetAttributes = {
+					921B18371C49E73D00B62994 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					921B184D1C49E73D00B62994 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 921B18371C49E73D00B62994;
+					};
+					921B18581C49E73D00B62994 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 921B18371C49E73D00B62994;
+					};
+				};
+			};
+			buildConfigurationList = 921B18331C49E73D00B62994 /* Build configuration list for PBXProject "AirmouseMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921B182F1C49E73D00B62994;
+			productRefGroup = 921B18391C49E73D00B62994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921B18371C49E73D00B62994 /* AirmouseMac */,
+				921B184D1C49E73D00B62994 /* AirmouseMacTests */,
+				921B18581C49E73D00B62994 /* AirmouseMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921B18361C49E73D00B62994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927CD10A1D24CD8B009E520F /* Assets.xcassets in Resources */,
+				927CD10B1D24CD8B009E520F /* Main.storyboard in Resources */,
+				927CD10E1D24CD8B009E520F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B184C1C49E73D00B62994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B18571C49E73D00B62994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921B18341C49E73D00B62994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927CD10D1D24CD8B009E520F /* FileFromPID.m in Sources */,
+				927CD1091D24CD8B009E520F /* AppDelegate.m in Sources */,
+				927CD10F1D24CD8B009E520F /* main.m in Sources */,
+				927CD1121D24CD8B009E520F /* WindowStuff.m in Sources */,
+				927CD10C1D24CD8B009E520F /* BTManager.m in Sources */,
+				927CD1101D24CD8B009E520F /* ViewController.m in Sources */,
+				927CD1111D24CD8B009E520F /* VTPostRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B184A1C49E73D00B62994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B18551C49E73D00B62994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921B18501C49E73D00B62994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921B18371C49E73D00B62994 /* AirmouseMac */;
+			targetProxy = 921B184F1C49E73D00B62994 /* PBXContainerItemProxy */;
+		};
+		921B185B1C49E73D00B62994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921B18371C49E73D00B62994 /* AirmouseMac */;
+			targetProxy = 921B185A1C49E73D00B62994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		927CD0FB1D24CD8B009E520F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927CD0FC1D24CD8B009E520F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921B18601C49E73D00B62994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		921B18611C49E73D00B62994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		921B18631C49E73D00B62994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AirmouseMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.AirmouseMac;
+				PRODUCT_NAME = AirmouseMac;
+			};
+			name = Debug;
+		};
+		921B18641C49E73D00B62994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AirmouseMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.AirmouseMac;
+				PRODUCT_NAME = AirmouseMac;
+			};
+			name = Release;
+		};
+		921B18661C49E73D00B62994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PennappsPreMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.PennappsPreMacTests;
+				PRODUCT_NAME = AirmouseMac;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirmouseMac.app/Contents/MacOS/AirmouseMac";
+			};
+			name = Debug;
+		};
+		921B18671C49E73D00B62994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PennappsPreMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.PennappsPreMacTests;
+				PRODUCT_NAME = AirmouseMac;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirmouseMac.app/Contents/MacOS/AirmouseMac";
+			};
+			name = Release;
+		};
+		921B18691C49E73D00B62994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PennappsPreMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.PennappsPreMacUITests;
+				PRODUCT_NAME = AirmouseMac;
+				TEST_TARGET_NAME = PennappsPreMac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		921B186A1C49E73D00B62994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PennappsPreMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topperstudios.PennappsPreMacUITests;
+				PRODUCT_NAME = AirmouseMac;
+				TEST_TARGET_NAME = PennappsPreMac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921B18331C49E73D00B62994 /* Build configuration list for PBXProject "AirmouseMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921B18601C49E73D00B62994 /* Debug */,
+				921B18611C49E73D00B62994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921B18621C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921B18631C49E73D00B62994 /* Debug */,
+				921B18641C49E73D00B62994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921B18651C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921B18661C49E73D00B62994 /* Debug */,
+				921B18671C49E73D00B62994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921B18681C49E73D00B62994 /* Build configuration list for PBXNativeTarget "AirmouseMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921B18691C49E73D00B62994 /* Debug */,
+				921B186A1C49E73D00B62994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921B18301C49E73D00B62994 /* Project object */;
+}
